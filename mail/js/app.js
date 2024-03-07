@@ -29,12 +29,12 @@ buttonDOMElement.addEventListener('click', function () {
     }
 
     if(trovato === true) {
-        containerElement.innerHTML += `<h2 class="green">Benvenuto, sei in lista!</h2>`;
+        containerElement.innerHTML = `<h2 class="green">Benvenuto, sei in lista!</h2>`;
         // console.log('accesso consentito');
         // console.log('accesso consentito');
     
     } else {
-        containerElement.innerHTML += `<h2 class="red">Oh no, non sei presente in lista :(</h2>`;
+        containerElement.innerHTML = `<h2 class="red">Oh no, non sei presente in lista :(</h2>`;
         // console.log('accesso negato');
     }
 })
